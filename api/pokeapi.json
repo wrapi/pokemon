@@ -1,0 +1,386 @@
+{
+  "berry": {
+    "method": "GET",
+    "path": "berry/:id"
+  },
+  "berry.list": {
+    "method": "GET",
+    "path": "berry/"
+  },
+  "berry.firmness": {
+    "method": "GET",
+    "path": "berry-firmness/:id"
+  },
+  "berry.firmness.list": {
+    "method": "GET",
+    "path": "berry-firmness/"
+  },
+  "berry.flavor": {
+    "method": "GET",
+    "path": "berry-flavor/:id"
+  },
+  "berry.flavor.list": {
+    "method": "GET",
+    "path": "berry-flavor/"
+  },
+  "contest.type": {
+    "method": "GET",
+    "path": "contest-type/:id"
+  },
+  "contest.type.list": {
+    "method": "GET",
+    "path": "contest-type/"
+  },
+  "contest.effect": {
+    "method": "GET",
+    "path": "contest-effect/:id"
+  },
+  "contest.effect.list": {
+    "method": "GET",
+    "path": "contest-effect/"
+  },
+  "superContest.effect": {
+    "method": "GET",
+    "path": "super-contest-effect/:id"
+  },
+  "superContest.effect.list": {
+    "method": "GET",
+    "path": "super-contest-effect/"
+  },
+  "encounter.method": {
+    "method": "GET",
+    "path": "encounter-method/:id"
+  },
+  "encounter.method.list": {
+    "method": "GET",
+    "path": "encounter-method/"
+  },
+  "encounter.condition": {
+    "method": "GET",
+    "path": "encounter-condition/:id"
+  },
+  "encounter.condition.list": {
+    "method": "GET",
+    "path": "encounter-condition/"
+  },
+  "encounter.condition.value": {
+    "method": "GET",
+    "path": "encounter-condition-value/:id"
+  },
+  "encounter.condition.value.list": {
+    "method": "GET",
+    "path": "encounter-condition-value/"
+  },
+  "evolution.chain": {
+    "method": "GET",
+    "path": "evolution-chain/:id"
+  },
+  "evolution.chain.list": {
+    "method": "GET",
+    "path": "evolution-chain/"
+  },
+  "evolution.trigger": {
+    "method": "GET",
+    "path": "evolution-trigger/:id"
+  },
+  "evolution.trigger.list": {
+    "method": "GET",
+    "path": "evolution-trigger/"
+  },
+  "generation": {
+    "method": "GET",
+    "path": "generation/:id"
+  },
+  "generation.list": {
+    "method": "GET",
+    "path": "generation/"
+  },
+  "pokedex": {
+    "method": "GET",
+    "path": "pokedex/:id"
+  },
+  "pokedex.list": {
+    "method": "GET",
+    "path": "pokedex/"
+  },
+  "version": {
+    "method": "GET",
+    "path": "version/:id"
+  },
+  "version.list": {
+    "method": "GET",
+    "path": "version/"
+  },
+  "version.group": {
+    "method": "GET",
+    "path": "version-group/:id"
+  },
+  "version.group.list": {
+    "method": "GET",
+    "path": "version-group/"
+  },
+  "item": {
+    "method": "GET",
+    "path": "item/:id"
+  },
+  "item.list": {
+    "method": "GET",
+    "path": "item/"
+  },
+  "item.attribute": {
+    "method": "GET",
+    "path": "item-attribute/:id"
+  },
+  "item.attribute.list": {
+    "method": "GET",
+    "path": "item-attribute/"
+  },
+  "item.category": {
+    "method": "GET",
+    "path": "item-category/:id"
+  },
+  "item.category.list": {
+    "method": "GET",
+    "path": "item-category/"
+  },
+  "item.fling.effect": {
+    "method": "GET",
+    "path": "item-fling-effect/:id"
+  },
+  "item.fling.effect.list": {
+    "method": "GET",
+    "path": "item-fling-effect/"
+  },
+  "item.pocket": {
+    "method": "GET",
+    "path": "item-pocket/:id"
+  },
+  "item.pocket.list": {
+    "method": "GET",
+    "path": "item-pocket/"
+  },
+  "machine": {
+    "method": "GET",
+    "path": "machine/:id"
+  },
+  "machine.list": {
+    "method": "GET",
+    "path": "machine/"
+  },
+  "move": {
+    "method": "GET",
+    "path": "move/:id"
+  },
+  "move.list": {
+    "method": "GET",
+    "path": "move/"
+  },
+  "move.ailment": {
+    "method": "GET",
+    "path": "move-ailment/:id"
+  },
+  "move.ailment.list": {
+    "method": "GET",
+    "path": "move-ailment/"
+  },
+  "move.battle.style": {
+    "method": "GET",
+    "path": "move-battle-style/:id"
+  },
+  "move.battle.style.list": {
+    "method": "GET",
+    "path": "move-battle-style/"
+  },
+  "move.category": {
+    "method": "GET",
+    "path": "move-category/:id"
+  },
+  "move.category.list": {
+    "method": "GET",
+    "path": "move-category/"
+  },
+  "move.damage.class": {
+    "method": "GET",
+    "path": "move-damage-class/:id"
+  },
+  "move.damage.class.list": {
+    "method": "GET",
+    "path": "move-damage-class/"
+  },
+  "move.learn.method": {
+    "method": "GET",
+    "path": "move-learn-method/:id"
+  },
+  "move.learn.method.list": {
+    "method": "GET",
+    "path": "move-learn-method/"
+  },
+  "move.target": {
+    "method": "GET",
+    "path": "move-target/:id"
+  },
+  "move.target.list": {
+    "method": "GET",
+    "path": "move-target/"
+  },
+  "location": {
+    "method": "GET",
+    "path": "location/:id"
+  },
+  "location.list": {
+    "method": "GET",
+    "path": "location/"
+  },
+  "location.area": {
+    "method": "GET",
+    "path": "location-area/:id"
+  },
+  "location.area.list": {
+    "method": "GET",
+    "path": "location-area/"
+  },
+  "pal.park.area": {
+    "method": "GET",
+    "path": "pal-park-area/:id"
+  },
+  "pal.park.area.list": {
+    "method": "GET",
+    "path": "pal-park-area/"
+  },
+  "region": {
+    "method": "GET",
+    "path": "region/:id"
+  },
+  "region.list": {
+    "method": "GET",
+    "path": "region/"
+  },
+  "ability": {
+    "method": "GET",
+    "path": "ability/:id"
+  },
+  "ability.list": {
+    "method": "GET",
+    "path": "ability/"
+  },
+  "characteristic": {
+    "method": "GET",
+    "path": "characteristic/:id"
+  },
+  "characteristic.list": {
+    "method": "GET",
+    "path": "characteristic/"
+  },
+  "egg.group": {
+    "method": "GET",
+    "path": "egg-group/:id"
+  },
+  "egg.group.list": {
+    "method": "GET",
+    "path": "egg-group/"
+  },
+  "gender": {
+    "method": "GET",
+    "path": "gender/:id"
+  },
+  "gender.list": {
+    "method": "GET",
+    "path": "gender/"
+  },
+  "growth.rate": {
+    "method": "GET",
+    "path": "growth-rate/:id"
+  },
+  "growth.rate.list": {
+    "method": "GET",
+    "path": "growth-rate/"
+  },
+  "nature": {
+    "method": "GET",
+    "path": "nature/:id"
+  },
+  "nature.list": {
+    "method": "GET",
+    "path": "nature/"
+  },
+  "pokeathlon.stat": {
+    "method": "GET",
+    "path": "pokeathlon-stat/:id"
+  },
+  "pokeathlon.stat.list": {
+    "method": "GET",
+    "path": "pokeathlon-stat/"
+  },
+  "pokemon": {
+    "method": "GET",
+    "path": "pokemon/:id"
+  },
+  "pokemon.list": {
+    "method": "GET",
+    "path": "pokemon/"
+  },
+  "pokemon.color": {
+    "method": "GET",
+    "path": "pokemon-color/:id"
+  },
+  "pokemon.color.list": {
+    "method": "GET",
+    "path": "pokemon-color/"
+  },
+  "pokemon.form": {
+    "method": "GET",
+    "path": "pokemon-form/:id"
+  },
+  "pokemon.form.list": {
+    "method": "GET",
+    "path": "pokemon-form/"
+  },
+  "pokemon.habitat": {
+    "method": "GET",
+    "path": "pokemon-habitat/:id"
+  },
+  "pokemon.habitat.list": {
+    "method": "GET",
+    "path": "pokemon-habitat/"
+  },
+  "pokemon.shape": {
+    "method": "GET",
+    "path": "pokemon-shape/:id"
+  },
+  "pokemon.shape.list": {
+    "method": "GET",
+    "path": "pokemon-shape/"
+  },
+  "pokemon.species": {
+    "method": "GET",
+    "path": "pokemon-species/:id"
+  },
+  "pokemon.species.list": {
+    "method": "GET",
+    "path": "pokemon-species/"
+  },
+  "stat": {
+    "method": "GET",
+    "path": "stat/:id"
+  },
+  "stat.list": {
+    "method": "GET",
+    "path": "stat/"
+  },
+  "type": {
+    "method": "GET",
+    "path": "type/:id"
+  },
+  "type.list": {
+    "method": "GET",
+    "path": "type/"
+  },
+  "language": {
+    "method": "GET",
+    "path": "language/:id"
+  },
+  "language.list": {
+    "method": "GET",
+    "path": "language/"
+  }
+}
