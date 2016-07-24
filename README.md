@@ -3,8 +3,6 @@
 Client interface for accessing [The RESTful Pokémon API](http://pokeapi.co/).
 
 [![NPM version](https://img.shields.io/npm/v/pokemon-wrapi.svg?style=flat)](https://www.npmjs.org/package/pokemon-wrapi)
-[![Build Status](https://travis-ci.org/wrapi/pokemon.svg?style=flat)](https://travis-ci.org/wrapi/pokemon)
-[![Coverage Status](https://coveralls.io/repos/github/wrapi/pokemon/badge.svg)](https://coveralls.io/github/wrapi/pokemon)
 
 
 ## Installation
